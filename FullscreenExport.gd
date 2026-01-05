@@ -30,6 +30,10 @@ func _exit_tree() -> void:
 class FullscreenExporterPlugin extends EditorExportPlugin:
 	var _original_mode: int = -1  # -1 means not currently exporting
 
+	func _get_name() -> String:
+		return "FullscreenExport"
+
+
 	func _export_begin(_features: PackedStringArray, _is_debug: bool, _path: String, _flags: int) -> void:
 		# Safety check: if we have a stored value, something went wrong in previous export
 		if _original_mode != -1:
