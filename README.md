@@ -2,6 +2,8 @@
 
 A Godot 4 editor plugin that automatically sets your project's window mode to fullscreen during export, then reverts back to the original mode once the export completes.
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=JNc0fjZ45iA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Why Use This Plugin?
 
 ![editor view](screenshots/editor_view.png)
